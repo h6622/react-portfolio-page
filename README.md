@@ -1,3 +1,12 @@
 # React Portfolio Page
 
-## Created by h662 <godh662@gmail.com>
+## Created by h662 (<godh662@gmail.com>)
+
+### Skill
+
+react, styled-component
+
+### How to make
+
+1. create-react-app (remove unnecessary files)
+2. CREATE Navigation component
