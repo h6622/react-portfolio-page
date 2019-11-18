@@ -10,3 +10,4 @@ react, styled-component
 
 1. create-react-app (remove unnecessary files)
 2. CREATE Navigation component
+3. CREATE Contents component

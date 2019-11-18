@@ -1,12 +1,13 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import Navigation from "./Navigation";
+import Contents from "./Contents";
 
 const GlobalStyle = createGlobalStyle`
-    body {
+    * {
         padding: 0;
         margin: 0;
-        background-color: pink;
+        
     }
 `;
 
@@ -15,7 +16,11 @@ const App = () => {
     <>
       <GlobalStyle />
       <Navigation />
-      <h1>Hello React</h1>
+      <Contents />
+      <Contents />
+      <Contents />
+      <Contents />
+      <Contents />
     </>
   );
 };
