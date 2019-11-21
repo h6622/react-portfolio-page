@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 const Content = styled.div`
   width: 100vw;
@@ -11,7 +11,7 @@ const Contents = props => {
   return (
     <>
       <Content style={{ background }}>
-        <h1>{props.title}</h1>
+        <h1 id={props.id}>{props.id}</h1>
       </Content>
     </>
   );

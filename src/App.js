@@ -16,11 +16,11 @@ const App = () => {
     <>
       <GlobalStyle />
       <Navigation />
-      <Contents title="Home" color="red" />
-      <Contents title="About" color="orange" />
-      <Contents title="Skill" color="yellow" />
-      <Contents title="Project" color="green" />
-      <Contents title="Contact" color="blue" />
+      <Contents id="Home" color="red" />
+      <Contents id="About" color="orange" />
+      <Contents id="Skill" color="yellow" />
+      <Contents id="Project" color="green" />
+      <Contents id="Contact" color="blue" />
     </>
   );
 };
