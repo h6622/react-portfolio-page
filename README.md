@@ -10,4 +10,13 @@ react, styled-component
 
 1. create-react-app (remove unnecessary files)
 2. CREATE Navigation component
-3. CREATE Contents component
+3. CREATE Contents component & SET props
+
+#### Navigation
+
+- ADD react-scroll for routing
+- ADD google-fonts
+
+#### Contents
+
+- SET props

@@ -7,18 +7,19 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding-right: 2em;
-  padding-left: 2em;
+  padding-left: 4em;
   background-color: white;
   position: sticky;
   top: 0;
+  font-family: "Shadows Into Light", cursive;
+  h1 {
+    font-size: 3em;
+  }
   ul {
     li {
       display: inline-block;
       margin-right: 0.75em;
-      a {
-        text-decoration: none;
-        color: #000;
-      }
+      font-size: 1.5em;
     }
   }
 `;
@@ -33,7 +34,7 @@ const navLinks = sections.map(section => {
         to={section}
         spy={true}
         smooth={true}
-        offset={-30}
+        offset={-80}
         duration={1000}
       >
         {section}
@@ -46,7 +47,7 @@ const Navigation = () => {
   return (
     <>
       <Nav>
-        <h1 onClick={scroll.scrollToTop}>Navigation</h1>
+        <h1 onClick={scroll.scrollToTop}>h662</h1>
         <ul>{navLinks}</ul>
       </Nav>
     </>
