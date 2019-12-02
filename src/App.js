@@ -1,6 +1,6 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Navigation from "./Navigation";
+import Navbar from "./components/nav/Navbar";
 import Contents from "./Contents";
 
 const GlobalStyle = createGlobalStyle`
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Navigation />
+      <Navbar />
       <Contents id="Home" color="red" />
       <Contents id="About" color="orange" />
       <Contents id="Skill" color="yellow" />

@@ -13,7 +13,10 @@ const Nav = styled.nav`
   top: 0;
   font-family: "Shadows Into Light", cursive;
   @media (max-width: 768px) {
-    display: none;
+    justify-content: center;
+    ul {
+      display: none;
+    }
   }
   h1 {
     font-size: 3em;
@@ -46,7 +49,7 @@ const navLinks = sections.map(section => {
   );
 });
 
-const Navigation = () => {
+const Navbar = () => {
   return (
     <>
       <Nav>
@@ -57,4 +60,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Navbar;

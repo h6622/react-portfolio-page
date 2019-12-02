@@ -16,7 +16,7 @@ react, styled-component
 
 - ADD react-scroll for routing
 - ADD google-fonts
-- ADD responsive - (max-width 768px) display:none;
+- ADD responsive for moblie
 
 #### Contents
 
