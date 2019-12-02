@@ -12,6 +12,9 @@ const Nav = styled.nav`
   position: sticky;
   top: 0;
   font-family: "Shadows Into Light", cursive;
+  @media (max-width: 768px) {
+    display: none;
+  }
   h1 {
     font-size: 3em;
   }
