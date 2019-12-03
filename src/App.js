@@ -1,13 +1,13 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
+
 import Navbar from "./components/nav/Navbar";
-import Contents from "./Contents";
+import Contents from "./components/contents/Contents";
 
 const GlobalStyle = createGlobalStyle`
     * {
         padding: 0;
-        margin: 0;
-        
+        margin: 0;        
     }
 `;
 
