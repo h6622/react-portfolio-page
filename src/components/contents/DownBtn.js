@@ -10,9 +10,6 @@ const DownIcon = styled.img`
   display: block;
   margin: auto;
   margin-bottom: 7.5vh;
-  @media (min-width: 768px) {
-    display: none;
-  }
 `;
 
 const DownBtn = () => {

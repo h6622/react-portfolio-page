@@ -31,26 +31,23 @@ const Nav = styled.nav`
   }
 `;
 
-const sections = ["Home", "About", "Skill", "Project", "Contact"];
-
-const navLinks = sections.map(section => {
-  return (
-    <li key={section}>
-      <Link
-        activeClass="active"
-        to={section}
-        spy={true}
-        smooth={true}
-        offset={-80}
-        duration={1000}
-      >
-        {section}
-      </Link>
-    </li>
-  );
-});
-
-const Navbar = () => {
+const Navbar = props => {
+  const navLinks = props.id.map(section => {
+    return (
+      <li key={section}>
+        <Link
+          activeClass="active"
+          to={section}
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={1000}
+        >
+          {section}
+        </Link>
+      </li>
+    );
+  });
   return (
     <>
       <Nav>
