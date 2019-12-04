@@ -21,3 +21,8 @@ react, styled-component
 #### Contents
 
 - SET props
+
+##### Home
+
+- ADD react-typing-animation
+- ADD DownBtn (SVG icon)

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container } from "../Style";
+import { Container } from "../../../style/Style";
 
 const Skill = props => {
   const background = props.color;

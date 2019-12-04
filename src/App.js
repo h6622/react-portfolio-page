@@ -1,19 +1,12 @@
 import React from "react";
-import { createGlobalStyle } from "styled-components";
 
+import { GlobalStyle } from "./style/Style";
 import Navbar from "./components/nav/Navbar";
 import Home from "./components/contents/home/Home";
 import About from "./components/contents/about/About";
 import Skill from "./components/contents/skill/Skill";
 import Project from "./components/contents/project/Project";
 import Contact from "./components/contents/contact/Contact";
-
-const GlobalStyle = createGlobalStyle`
-    * {
-        padding: 0;
-        margin: 0;        
-    }
-`;
 
 const App = () => {
   const contents = ["Home", "About", "Skill", "Project", "Contact"];
