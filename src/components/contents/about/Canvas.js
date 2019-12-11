@@ -21,6 +21,7 @@ const Canvas = () => {
     });
     canvasRef.current.addEventListener("touchmove", e => {
       e.preventDefault();
+      e.stopPropagation();
       const touch = e.targetTouches[0];
       if (touch) {
         const touchPos = getPos(touch.clientX, touch.clientY);
