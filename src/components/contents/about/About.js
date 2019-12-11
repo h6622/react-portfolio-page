@@ -1,6 +1,7 @@
 import React from "react";
-
 import { Container } from "../../../style/Style";
+
+import Canvas from "./Canvas";
 
 const About = props => {
   const background = props.color;
@@ -8,7 +9,7 @@ const About = props => {
   return (
     <>
       <Container id={props.id} style={{ background }}>
-        <h1>{props.id}</h1>
+        <Canvas />
       </Container>
     </>
   );

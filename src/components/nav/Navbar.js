@@ -40,7 +40,6 @@ const Navbar = props => {
           to={section}
           spy={true}
           smooth={true}
-          offset={-80}
           duration={1000}
         >
           {section}
