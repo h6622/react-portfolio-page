@@ -40,8 +40,8 @@ const App = () => {
       <Home id={contents[0]} color={tempColor[0]} />
       <About id={contents[1]} color={tempColor[1]} />
       <Skill id={contents[2]} color={tempColor[2]} />
-      <Project id={contents[3]} color={tempColor[3]} />
-      <Contact id={contents[4]} color={tempColor[4]} />
+      {/* <Project id={contents[3]} color={tempColor[3]} />
+      <Contact id={contents[4]} color={tempColor[4]} /> */}
     </AppContext.Provider>
   );
 };

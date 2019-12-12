@@ -47,7 +47,7 @@ const StyledNav = styled.nav`
       display: none;
     }
   }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .moreBtn {
       display: none;
     }
