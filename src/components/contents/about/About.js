@@ -1,33 +1,65 @@
 import React from "react";
-import { Container } from "../../../style/Style";
+import RadarChart from "react-svg-radar-chart";
+import "react-svg-radar-chart/build/css/index.css";
 import styled from "styled-components";
 
-import Canvas from "./Canvas";
-import SelfIntroduction from "./SelfIntroduction";
-
-import bgImg from "../../../images/bg.png";
-import { AppContext } from "../../../App";
+import { Container } from "../../../style/Style";
 
 const Styled = styled.div`
-  background: no-repeat center url(${bgImg});
-  background-position-y: 300%;
-  @media (max-width: 768px) {
-    background-position-y: 1000%;
+  font-size: 1em;
+  text-align: center;
+  #radarchart {
+    width: 50%;
   }
 `;
 
+const data = [
+  {
+    data: {
+      programming: 0.9,
+      graphic: 0.65,
+      design: 0.75,
+      health: 0.95,
+      english: 0.6,
+      japanese: 0.7
+    },
+    meta: { color: "green" }
+  }
+];
+
+const captions = {
+  programming: "Programming",
+  graphic: "Graphic",
+  design: "Design",
+  english: "English",
+  health: "Health",
+  japanese: "Japanese"
+};
+
+const defaultOptions = {
+  captionProps: () => ({
+    className: "caption",
+    textAnchor: "middle",
+    fontSize: 20
+  })
+};
+
 const About = props => {
-  const size = [window.innerWidth, window.innerHeight];
-  console.log(size);
   return (
-    <Styled>
-      <AppContext.Provider value={size}>
-        <Container id={props.id}>
-          <Canvas width={size[0]} height={size[1]} />
-          <SelfIntroduction />
-        </Container>
-      </AppContext.Provider>
-    </Styled>
+    <>
+      <Container id={props.id}>
+        <Styled>
+          <h1>About Me</h1>
+          <RadarChart
+            id="radarchart"
+            captions={captions}
+            data={data}
+            size={600}
+            options={defaultOptions}
+          />
+        </Styled>
+      </Container>
+    </>
   );
 };
 

@@ -26,6 +26,7 @@ const DownBtn = () => {
         to="About"
         spy={true}
         smooth={true}
+        offset={-77}
         duration={1000}
       >
         <DownIcon src={downIcon} />

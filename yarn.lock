@@ -8313,6 +8313,11 @@ react-scroll@^1.7.14:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
+react-svg-radar-chart@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-svg-radar-chart/-/react-svg-radar-chart-1.2.0.tgz#ed6b5e97896723eda28b9e34180b0c8d6ad13c72"
+  integrity sha512-C1t9rSIohx6vNBJ1GrZZ+XXq+I9Yshojdb8VTqwx5qmiwWY2PNL8fg1hS3naGUTZxw16kQLcvAVlUo07QaD+AQ==
+
 react-typing-animation@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/react-typing-animation/-/react-typing-animation-1.6.2.tgz#841a8a0cfeb45233a0f6ce460d0bff8fb925c258"

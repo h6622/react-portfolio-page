@@ -16,6 +16,7 @@ const StyledNav = styled.nav`
   top: 0;
   width: 100%;
   font-family: "Shadows Into Light", cursive;
+  border-bottom: 0.2em solid rgb(77, 191, 77);
   z-index: 1;
   h1 {
     padding-left: 2em;
